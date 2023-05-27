@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Latihan Frame</title>
+	</head>
+
+	<frameset rows="58,*,50">
+		<frame name="top" scrolling="no" noresize target="contents" src="header.html">
+		<frameset cols="200,*">
+			<frame name="contents" target="main" src="menu.html" scrolling="no">
+			<frame name="main" src="home.html" scrolling="yes">
+		</frameset>
+		<frame name="bottom" scrolling="no" noresize target="contents" src="footer.html">
+	</frameset>
+	<noframes>
+	</noframes>
+</html>
